@@ -7,6 +7,7 @@ class Node:
         return ' -> '.join(str(i) for i in self + ['None'])
 
 def linked_list_from_string(s):
+    """kkk"""
     if s == 'None':
         curr = None
     else:
